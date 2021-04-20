@@ -12,6 +12,17 @@ document.addEventListener('DOMContentLoaded', async function() {
 
   // 🔥 YOUR CODE GOES HERE 🔥
   // Write the recipe (algorithm) in the comments. Then, write the code.
-  
+  let passengerFirstName = ride.passengerDetails.first 
+  let phoneNumber = ride.passengerDetails.phoneNumber
+  let pickup = ride.pickupLocation.address
+  let dropoff = ride.dropoffLocation.address
+  console.log(`Noober X Passenger: ${passengerFirstName} - ${phoneNumber}. Pickup at ${pickup}. Drop-off at ${dropoff}`)
+
+  let serviceRequested 
+
+  if (ride.purpleRequested = `true`) {serviceRequested = `Noober Purple`}
+  else if (ride.numberOfPassegers >3) {console.log(`Noober XL:${passengerFirstName} - ${phoneNumber}. Pickup at ${pickup}. Drop-off at ${dropoff}`)}
+  else (console.log(`Noober X Passenger: ${passengerFirstName} - ${phoneNumber}. Pickup at ${pickup}. Drop-off at ${dropoff}`))
+
   // 🔥 YOUR CODE ENDS HERE 🔥
 })
